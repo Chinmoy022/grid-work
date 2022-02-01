@@ -1,0 +1,75 @@
+                       .box-1 {
+                           color: honeydew;
+                           background-color: rgb(15, 11, 250);
+                           height: 150px;
+                       }
+                       
+                       .box-2 {
+                           color: honeydew;
+                           background-color: rgb(71, 218, 218);
+                           text-align: center;
+                       }
+                       
+                       .box-3 {
+                           color: honeydew;
+                           background-color: rgb(250, 11, 218);
+                           text-align: center;
+                       }
+                       
+                       .box-4 {
+                           color: honeydew;
+                           background-color: rgb(71, 218, 218);
+                           text-align: center;
+                       }
+                       
+                       .box-5 {
+                           color: honeydew;
+                           background-color: rgb(15, 11, 250);
+                           text-align: center;
+                       }
+                       
+                       #box {
+                           color: honeydew;
+                           background-color: indigo;
+                       }
+                       
+                       .container {
+                           display: grid;
+                           grid-gap: 10px;
+                           grid-template: repeat(3, 1fr 2fr 1fr) / repeat(6, 1fr);
+                       }
+                       
+                       .header {
+                           grid-column-start: 1;
+                           grid-column-end: 7;
+                           grid-row-start: 1;
+                           grid-row-end: 2;
+                           text-align: center;
+                       }
+                       
+                       .box-2 {
+                           grid-column-start: 1;
+                           grid-column-end: 2;
+                           grid-row-start: 2;
+                           grid-row-end: 4;
+                       }
+                       
+                       .box-3 {
+                           grid-column-start: 2;
+                           grid-column-end: 6;
+                           grid-row-start: 2;
+                           grid-row-end: 4;
+                       }
+                       
+                       .box-4 {
+                           grid-column-start: 6;
+                           grid-column-end: 7;
+                           grid-row-start: 2;
+                           grid-row-end: 4;
+                       }
+                       
+                       .box-5 {
+                           grid-column-start: 1;
+                           grid-column-end: 7;
+                           height: 150px;
+                       }
